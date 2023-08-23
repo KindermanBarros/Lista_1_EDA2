@@ -1,0 +1,3 @@
+C:/Users/Kinderman/CLionProjects/Lista 1 EDA/cmake-build-debug/CMakeFiles/Lista_1_EDA.dir
+C:/Users/Kinderman/CLionProjects/Lista 1 EDA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Kinderman/CLionProjects/Lista 1 EDA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
