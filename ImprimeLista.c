@@ -3,31 +3,41 @@
 
 void imprimirLista(no *lista){
     while (lista!=NULL){
-        printf(" : %d", lista->conteudo);
+        printf(" : %d", lista);
         lista = lista->prox;
+    }
+    printf("\n");
+}
+
+void imprimirListaDupla(no *lista){
+    no *ant = lista;
+    while (lista!=NULL){
+        printf(" : %d", lista->conteudo);
+        ant = lista;
+
+    }
+    printf("\n");
+    lista = ant;
+    while (lista!=NULL){
+        printf(" : %d", lista->conteudo);
+
     }
 }
 
-int somarLista(no *lista){
-    int soma=0;
-    while (lista!=NULL){
-        soma = soma + lista->conteudo;
-        lista = lista->prox;
-    }
-    return soma;
-}
 
 void imprimeListaRecursiva(no *lista)
 {
-    if (lista != NULL)   {
-        printf(" : %d", lista->conteudo);
-        imprimeListaRecursiva(lista->prox);
-    }
+    if (lista != NULL)
+        return;
+    imprimeListaRecursiva(lista);
+    printf(" : %d", lista.conteudo);
 }
 
 void imprimirReverse(no *lista){
     if (lista!=NULL){
-        imprimirReverse(lista->prox);
-        printf(" : %d", lista->conteudo);
+        imprimirReverse(lista>prox);
+        printf(" : %d", lista-conteudo);
     }
 }
+
+

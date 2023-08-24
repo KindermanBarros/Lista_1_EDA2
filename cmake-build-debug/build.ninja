@@ -79,6 +79,12 @@ build CMakeFiles/Lista_1_EDA.dir/CriaNodo.c.obj: C_COMPILER__Lista_1_EDA_unscann
   OBJECT_DIR = CMakeFiles\Lista_1_EDA.dir
   OBJECT_FILE_DIR = CMakeFiles\Lista_1_EDA.dir
 
+build CMakeFiles/Lista_1_EDA.dir/RemoverK.c.obj: C_COMPILER__Lista_1_EDA_unscanned_Debug C$:/Users/Kinderman/CLionProjects/Lista$ 1$ EDA/RemoverK.c || cmake_object_order_depends_target_Lista_1_EDA
+  DEP_FILE = CMakeFiles\Lista_1_EDA.dir\RemoverK.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Lista_1_EDA.dir
+  OBJECT_FILE_DIR = CMakeFiles\Lista_1_EDA.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Lista_1_EDA
@@ -87,7 +93,7 @@ build CMakeFiles/Lista_1_EDA.dir/CriaNodo.c.obj: C_COMPILER__Lista_1_EDA_unscann
 #############################################
 # Link the executable Lista_1_EDA.exe
 
-build Lista_1_EDA.exe: C_EXECUTABLE_LINKER__Lista_1_EDA_Debug CMakeFiles/Lista_1_EDA.dir/main.c.obj CMakeFiles/Lista_1_EDA.dir/RemoveNodos.c.obj CMakeFiles/Lista_1_EDA.dir/InsereNodos.c.obj CMakeFiles/Lista_1_EDA.dir/ImprimeLista.c.obj CMakeFiles/Lista_1_EDA.dir/CriaNodo.c.obj
+build Lista_1_EDA.exe: C_EXECUTABLE_LINKER__Lista_1_EDA_Debug CMakeFiles/Lista_1_EDA.dir/main.c.obj CMakeFiles/Lista_1_EDA.dir/RemoveNodos.c.obj CMakeFiles/Lista_1_EDA.dir/InsereNodos.c.obj CMakeFiles/Lista_1_EDA.dir/ImprimeLista.c.obj CMakeFiles/Lista_1_EDA.dir/CriaNodo.c.obj CMakeFiles/Lista_1_EDA.dir/RemoverK.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Lista_1_EDA.dir

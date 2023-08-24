@@ -8,5 +8,4 @@ add_executable(Lista_1_EDA main.c
         InsereNodos.c
         ImprimeLista.c
         CriaNodo.c
-        RemoverK.c++
         RemoverK.c)

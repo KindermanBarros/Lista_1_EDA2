@@ -6,12 +6,13 @@
 typedef struct nodo{
     int conteudo;
     struct nodo *prox;
+    struct nodo *ant;
 }no;
 
 no * criarNo(int conteudo);
 no * inserirNodos(no **lista);
-no * inserirNodosFinal(no **lista, int conteudo);
 no * inserirNodosInicio(no **lista, int conteudo);
+no * inserirNodosFinal(no **lista, int conteudo);
 no * removerNodos(no **lista, int conteudo);
 int busca(no *prim, int chave);
 void imprimirLista(no *lista);
